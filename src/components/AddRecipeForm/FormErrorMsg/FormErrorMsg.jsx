@@ -2,6 +2,7 @@ import PropTypes from 'prop-types';
 import { ErrorMessage } from 'formik';
 import { ErrorText } from './FormErrorMsg.styled';
 
+
 export const FormErrorMsg = ({ name, position }) => {
   return (
     <ErrorMessage
